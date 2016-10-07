@@ -1,3 +1,23 @@
+fycm_general:
+    resource: "@FYCMGeneralBundle/Resources/config/routing.xml"
+    prefix:   /
+
+fycm_espace_client:
+    resource: "@FYCMEspaceClientBundle/Resources/config/routing.xml"
+    prefix:   /
+
+fycm_espace_cm:
+    resource: "@FYCMEspaceCMBundle/Resources/config/routing.xml"
+    prefix:   /
+
+fycm_admin:
+    resource: "@FYCMAdminBundle/Resources/config/routing.xml"
+    prefix:   /
+
+fycm_public:
+    resource: "@FYCMPublicBundle/Resources/config/routing.xml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
